@@ -1,4 +1,36 @@
-body{
-    background-color: #161b1f;
-    color: white;
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+  background-color: #161b1f;
+  color: white;
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #2b3033;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #486379;
+  color: white;
 }
